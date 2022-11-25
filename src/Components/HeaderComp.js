@@ -7,12 +7,14 @@ const  HeaderComp = ({
     text
 }) => {
     const navigation = useNavigation()
+    console.log(navigation,"iufdhyih")
     return (
+
         <View>
-            {!!goBack ? <TouchableOpacity
-                onPress={!!goBack ? goBack : () => navigation.goBack()}>
+            { <TouchableOpacity
+                onPress={() => navigation.openDrawer()}>
                 <Text>GoBack</Text>
-            </TouchableOpacity> : <Text />}
+            </TouchableOpacity>}
             <Text>{text}</Text>
             <Text />
 

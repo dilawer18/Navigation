@@ -7,9 +7,7 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <SafeAreaView>
-        <HeaderComp
-          text="Home"
-          goBack />
+     <Text>Home</Text>
       </SafeAreaView>
 
     </View>
