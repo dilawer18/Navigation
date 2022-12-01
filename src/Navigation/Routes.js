@@ -18,33 +18,33 @@ export function Routes() {
     <Drawer.Navigator>
       <Drawer.Screen
         name={NavigationStrings.HOME}
-        component={TabRoutes}
-        options={{ drawerLabel: 'Home' }}
+        component={Home}
+        
       />
       <Drawer.Screen
         name={NavigationStrings.EXPLORE}
         component={Explore}
-        options={{ drawerLabel: 'Explore' }}
+        
       />
       <Drawer.Screen
         name={NavigationStrings.PROFILE}
         component={Profile}
-        options={{ drawerLabel: 'Profile' }}
+        
       />
       <Drawer.Screen
         name='EditProfile'
         component={EditProfile}
-        options={{ drawerLabel: 'EditProfile' }}
+       
       />
       <Drawer.Screen
         name='ProductDetails'
         component={ProductDetails}
-        options={{ drawerLabel: 'ProductDetails' }}
+        
       />
       <Drawer.Screen
         name='Search'
         component={Search}
-        options={{ drawerLabel: 'Search' }}
+       
       />
     </Drawer.Navigator>
     </NavigationContainer>
